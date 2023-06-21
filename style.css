@@ -60,12 +60,13 @@ html {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding: 20px;
+ position: relative;
+ bottom: 36px;
 }
 
 .link>a {
   text-decoration: none;
-  color: #ff8cd9;
+  color: #ff8cab;
   font-size: 24px;
   text-align: center;
   border: 3px solid #e1bb6f;
@@ -84,6 +85,15 @@ html {
 
 .footer {
   text-align: center;
+  font-size: 1.8em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #e1bb6f;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+ bottom: 36px;
 }
 
 .footer>i {
